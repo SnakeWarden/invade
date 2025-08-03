@@ -264,8 +264,8 @@ class AlienInvasion:
         alien_width, alien_height = alien.rect.size
 
         current_x, current_y = alien_width, alien_height
-        while current_y < (self.setting.screen_height - 3 * alien_height):
-            while current_x < (self.setting.screen_width - 10 * alien_width):
+        while current_y < (self.setting.screen_height - 12 * alien_height):
+            while current_x < (self.setting.screen_width - 5 * alien_width):
                 self._create_alien(current_x, current_y)
                 current_x += 2 * alien_width
 
@@ -340,6 +340,7 @@ if __name__ == '__main__':
 
 
 #千磨万击还坚韧，一朝登上九冲天！————————记录我的第一个python项目，完成于2025年8月3日19时05分！
+
 
 
 
